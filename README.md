@@ -1,5 +1,15 @@
-# Example Express Static Content Project
+# A server that helps people test out websites locally
 
-A simple demo application that shows how to use the static middleware in Express. Not that this example doeesn't use the latest version of Express.
+## Project serves as a base for quickly copying a websites.
+1) Often websites need a server to get around cors.
+2) Downloading all of the information and adding to a /public folder.
+3) Good to go!
 
-This code goes along with the tutorial on the Modulus Blog about [static content with Express](http://blog.modulus.io/nodejs-and-express-static-content).
+## Install instructions:
+```bash
+clone project;
+cd project;
+rm -rf public/*;
+cp ../yourWebsiteFolder/* public/;
+npm install; node app.js;
+```
